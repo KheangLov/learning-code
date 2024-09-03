@@ -1,0 +1,100 @@
+/* 
+#f44336!important
+
+0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
+
+#f1f1f1!important
+
+#000!important */
+
+body {
+    font-family: "Sevillana", cursive;
+    margin: 0;
+}
+
+button, h1 {
+    font-family: "Sevillana", cursive;
+}
+
+.navbar {
+    background-color: #f44336;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.nav-button {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    padding: 12px 24px;
+}
+
+.nav-button-active {
+    color: #000;
+    background-color: #fff;
+    border: none;
+}
+
+.top-section {
+    color: #fff;
+    text-align: center;
+    padding: 128px 16px;
+    background-color: #f44336;
+}
+
+.btn-get-started {
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 12px 18px;
+    margin-top: 20px;
+}
+
+.loram-first {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 40px;
+}
+
+.left {
+    flex: 70% 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dark-section {
+    color: #fff;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+    border: 2px solid #000;
+    background-color: #f44336;
+    padding: 0 15px;
+    /* width: 100%; */
+    height: 30px;
+}
+
+.box2 {
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    background-color: #f44336;
+    padding: 0 15px;
+    /* width: 100%; */
+    height: 30px;
+}
